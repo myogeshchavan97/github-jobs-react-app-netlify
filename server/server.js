@@ -30,7 +30,7 @@ router.get('/jobs', async (req, res) => {
   }
 });
 
-app.use('/.netlify/functions', router);
+app.use('/.netlify/functions/server', router);
 
 module.exports = app;
 module.exports.handler = serverless(app);
