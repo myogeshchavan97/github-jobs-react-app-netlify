@@ -1,0 +1,4 @@
+[build]
+ command="yarn install && yarn run build && yarn run server-build"
+ publish="build"
+ functions="lambda"
